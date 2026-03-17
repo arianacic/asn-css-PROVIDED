@@ -104,12 +104,50 @@ p {
 
 /*** INSERT YOUR WORK BELOW: ***/
 
+/* Header and footer background color */
+header,
+footer {
+  background-color: #c74365;
+}
 
+/* 30px space between header → main, and main → footer */
+main {
+  margin: 30px 0;
+}
 
+/* Header anchors: 18px font size */
+header a {
+  font-size: 18px;
+}
 
+/* Logo size + spacing */
+header img {
+  width: 30px;
+  height: 30px;
+  margin: 10px;
+}
 
+/* Center heading + links vertically inside header */
+header h1,
+header a {
+  line-height: 50px;
+}
 
+/* Space between page heading and links (adjust as needed) */
+header nav {
+  margin-left: auto; /* pushes links to the right edge */
+}
 
+/* 15px space between each link */
+header nav a {
+  margin-left: 15px;
+}
+
+/* Footer text centered + 15px padding */
+footer {
+  text-align: center;
+  padding: 15px 0;
+}
 
 
 /****************** home page styling ******************/
