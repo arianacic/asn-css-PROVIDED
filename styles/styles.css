@@ -159,9 +159,17 @@ footer {
 
 /*** INSERT YOUR WORK BELOW: ***/
 
+/* Everything in the "italics" class will be italicized */
+.italics {
+    font-style: italic;
+}
 
-
-
+/* Article styling */
+article {
+    background-color: lightgray;
+    padding: 15px;
+    margin: 15px;
+}
 
 
 
