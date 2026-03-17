@@ -46,13 +46,46 @@ h1, h2 {
 
 /*** INSERT YOUR WORK BELOW: ***/
 
+/* 1st level headings: 32px */
+h1 {
+  font-size: 32px;
+}
 
+/* 2nd level headings: 24px + 15px spacing below */
+h2 {
+  font-size: 24px;
+  margin-bottom: 15px;
+}
 
+/* 3rd level headings: 18px + bold */
+h3 {
+  font-size: 18px;
+  font-weight: bold;
+}
 
+/* Footer text: 12px */
+footer {
+  font-size: 12px;
+}
 
+/* Anchors: no underline until hover */
+a {
+  text-decoration: none;
+}
 
+a:hover {
+  text-decoration: underline;
+}
 
+/* Anchors in the header are black */
+header a {
+  color: black;
+}
 
+/* Paragraphs: 15px spacing below */
+p {
+  margin-bottom: 15px;
+}
 
 
 /****************** site-wide styling ******************/
