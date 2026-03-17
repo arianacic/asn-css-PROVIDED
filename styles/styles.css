@@ -172,8 +172,6 @@ article {
 }
 
 
-
-
 /****************** profile page styling ******************/
 
 /***  INSTRUCTIONS:
@@ -188,9 +186,43 @@ article {
 
 /*** INSERT YOUR WORK BELOW: ***/
 
+/* Wide and narrow column widths */
+.wide-column {
+  width: 420px;
+}
 
+.narrow-column {
+  width: 180px;
+}
 
+/* Profile picture width */
+.profile-picture {
+  width: 120px;
+}
 
+/* Labels: bold, 70px wide, right-aligned, 15px space on right */
+.labels {
+  font-weight: bold;
+  width: 70px;
+  text-align: right;
+  margin-right: 15px;
+}
+
+/* Light background box */
+.light-background {
+  background-color: lightgray;
+  height: 140px;
+  position: relative;
+  top: 30px; /* shifts down by 30px */
+}
+
+/* h2 inside light-background: shifted down 10px + spacing */
+.light-background h2 {
+  position: relative;
+  top: 10px;
+  margin-left: 15px;
+  margin-bottom: 15px;
+}
 
 
 /****************** form styling ******************/
