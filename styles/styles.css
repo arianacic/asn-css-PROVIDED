@@ -187,21 +187,25 @@ article {
 
 /*** INSERT YOUR WORK BELOW: ***/
 
-/* Wide and narrow column widths */
-.wide-column {
-  width: 420px;
+/* Container that holds BOTH sides (photo/info on left, role box on right) */
+.profile-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
 }
 
-.narrow-column {
-  width: 180px;
+/* LEFT SIDE: photo + labels + values */
+.profile-left {
+  display: flex;
 }
 
-/* Profile picture width */
+/* Profile picture */
 .profile-picture {
   width: 120px;
+  margin-right: 20px;
 }
 
-/* Labels: bold, 70px wide, right-aligned, 15px space on right */
+/* Labels column */
 .labels {
   font-weight: bold;
   width: 70px;
@@ -209,21 +213,32 @@ article {
   margin-right: 15px;
 }
 
-/* Light background box */
+/* Values column */
+.values {
+  width: 180px; /* matches narrow column */
+}
+
+/* RIGHT SIDE: Role box */
+.profile-right {
+  width: 180px; /* matches narrow column */
+}
+
+/* Light background box behind "Role" heading */
 .light-background {
   background-color: lightgray;
   height: 140px;
   position: relative;
-  top: 30px; /* shifts down by 30px */
+  top: 30px;
 }
 
-/* h2 inside light-background: shifted down 10px + spacing */
+/* h2 inside the light background */
 .light-background h2 {
   position: relative;
   top: 10px;
   margin-left: 15px;
   margin-bottom: 15px;
 }
+
 
 /****************** form styling ******************/
 
@@ -242,6 +257,43 @@ article {
 /*** INSERT YOUR WORK BELOW: ***/
 
 /* Form spacing above and below */
+form {
+  margin: 45px 0;
+}
+
+/* Labels: block, bold, centered */
+form label {
+  display: block;
+  font-weight: bold;
+  text-align: center;
+}
+
+/* Input fields: 100px wide */
+form input {
+  width: 100px;
+}
+
+/* 15px space between each day */
+.day {
+  margin-bottom: 15px;
+}
+
+/* Button styling */
+form button {
+  height: 21px;
+  width: 100px;
+  margin-top: 30px;
+  margin-left: calc(600px - 100px);
+  border: 1px solid grey;
+  background-color: white;
+  border-radius: 4px;
+  font-family: inherit;
+}
+
+/* Button hover state */
+form button:hover {
+  background-color: grey;
+}
 
 
 
