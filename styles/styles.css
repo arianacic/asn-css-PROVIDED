@@ -54,6 +54,7 @@ h1 {
 /* 2nd level headings: 24px + 15px spacing below */
 h2 {
   font-size: 24px;
+  margin-top: 15px;
   margin-bottom: 15px;
 }
 
@@ -241,6 +242,7 @@ article {
 
 /*** INSERT YOUR WORK BELOW: ***/
 
+/* Form spacing above and below */
 
 
 
